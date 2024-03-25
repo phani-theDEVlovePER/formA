@@ -1,0 +1,14 @@
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span{
+    color: rgb(85, 143, 235);
+    transform: translate(10px, -7px);
+    font-size: 0.6em;
+    padding: 0 10px;
+    background: white;
+    border-left: 1px solid goldenrod;
+    border-right: 1px solid goldenrod;
+}
+.inputBox input:valid,
+.inputBox input:focus{
+    border: 1px solid greenyellow;
+}
